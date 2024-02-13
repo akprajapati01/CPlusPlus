@@ -16,5 +16,12 @@ int main(){
     cout<<"The value of a-- = "<<a--<<endl;
     cout<<"The value of --a = "<<--a<<endl;
     cout<<"The value of ++a = "<<++a<<endl;
+
+    // Comparision Operatore
+    cout<<"The value of a==b = "<<a == b<<endl;
+    cout<<"The value of a>b = "<<a>b<<endl;
+    cout<<"The value of ++a = "<<++a<<endl;
+    cout<<"The value of ++a = "<<++a<<endl;
+    cout<<"The value of ++a = "<<++a<<endl;
     return 0;
 }
