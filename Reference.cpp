@@ -9,6 +9,8 @@ int main(){
     cin>>b;
     c=a+b;
     cout<<"The Sum of a + b = "<<c<<endl;
-    cout<<"The value of global c :"<<::c;
+    cout<<"The value of global c :"<<::c<<endl;
+
+    cout<<"The Sum of a + b = "<<c<<endl<<"The value of global c :"<<::c;
     return 0;
 }
