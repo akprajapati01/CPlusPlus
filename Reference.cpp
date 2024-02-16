@@ -11,6 +11,7 @@ int main(){
     cout<<"The Sum of a + b = "<<c<<endl;
     cout<<"The value of global c :"<<::c<<endl;
 
-    cout<<"The Sum of a + b = "<<c<<endl<<"The value of global c :"<<::c;
+    cout<<"The Sum of a + b = "<<c<<endl<<"The value of global c :"<<::c; //this is cascasding
+    
     return 0;
 }
