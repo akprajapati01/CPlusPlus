@@ -13,7 +13,12 @@ int main(){
 
     cout<<"The Sum of a + b = "<<c<<endl<<"The value of global c :"<<::c; //this is cascasding
     // 848.898f
-    cout<<"The size of 34.43f is: "<<sizeof(34.34f);
+    cout<<"The size of 34.43f is: "<<sizeof(34.34f)<<endl;
+    cout<<"The size of 34.43F is: "<<sizeof(34.34F)<<endl;
+    cout<<"The size of 34.43l is: "<<sizeof(34.34l)<<endl;
+    cout<<"The size of 34.43L is: "<<sizeof(34.34L)<<endl;
+    cout<<"The size of 34.43f is: "<<sizeof(34.34f)<<endl;
+    cout<<"The size of 34 is: "<<sizeof(34)<<endl;
 
     return 0;
 }
