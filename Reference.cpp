@@ -3,6 +3,8 @@ using namespace std;
 int c=69;
 int main(){
     int a,b,c;
+
+    /*Taking Input from the user*/
     cout<<"Input The Value of a:"<<endl;
     cin>>a;
     cout<<"Input The Value of b:"<<endl;
@@ -12,7 +14,8 @@ int main(){
     cout<<"The value of global c :"<<::c<<endl;
 
     cout<<"The Sum of a + b = "<<c<<endl<<"The value of global c :"<<::c; //this is cascasding
-    // 848.898f
+    /*:: is a scope resolution operator*/
+    
     cout<<"The size of 34.43f is: "<<sizeof(34.34f)<<endl;
     cout<<"The size of 34.43F is: "<<sizeof(34.34F)<<endl;
     cout<<"The size of 34.43l is: "<<sizeof(34.34l)<<endl;
