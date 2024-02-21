@@ -29,8 +29,10 @@ int main(){
     float  h=l;
     cout<<"The Value of a is :"<<l<<endl;
     cout<<"The Value of a is :"<<h<<endl;
-
-
+    
+    //Typecasting
+    cout<<"The Value of a is :"<<float(a)<<endl;
+    cout<<"The Value of a is :"<<(float)a<<endl;
 
     return 0;
 }
