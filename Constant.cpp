@@ -8,6 +8,8 @@ int main(){
     // Constant in C++
     const int b=10;
     cout<<"The Value of b is : "<<b<<endl; //Here the value of b did not gets updated because b is constant value
+    // b=9; This will produce a error because b has a constant value
+
     return 0;
 
 }
