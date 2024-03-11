@@ -14,11 +14,12 @@ int main(){
         cout<<j<<" ";
         j++;
     }
+    cout<<endl;
     do
     {
         cout<<k<<" ";
         k++;
-    } while (i>9);
+    } while (k<20);
     
     return 0;
 }
