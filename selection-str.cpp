@@ -4,12 +4,12 @@ int main(){
     int i;
     cout<<"input any value of :";
     cin>>i;
-    if(i>6)
+    if(i>=18)
     {
-        cout<<"True";
+        cout<<"Can vote";
     }
     else{
-        cout<<"False";
+        cout<<"Cannot vote";
     }
     return 0;
 }
