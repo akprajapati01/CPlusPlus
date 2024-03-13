@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int i;
-    cout<<"input any value of :";
+    cout<<"Input Your age  :";
     cin>>i;
     if(i>=18)
     {
