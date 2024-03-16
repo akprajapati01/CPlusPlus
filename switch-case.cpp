@@ -9,6 +9,12 @@ int main(){
     case 18:
         cout<<"You can drink";
         break;
+    case 19:
+        cout<<"You can drink";
+        break;
+    case 20:
+        cout<<"You can drink";
+        break;
     
     default:
         cout<<"You are not born yet";
