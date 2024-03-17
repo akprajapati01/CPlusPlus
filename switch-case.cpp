@@ -15,7 +15,15 @@ int main(){
     case 20:
         cout<<"You can drink";
         break;
-    
+    case 21:
+        cout<<"You can drink";
+        break;
+    case 22:
+        cout<<"You can drink";
+        break;
+    case 23:
+        cout<<"You can drink";
+        break;
     default:
         cout<<"You are not born yet";
         break;
