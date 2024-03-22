@@ -2,6 +2,8 @@
 using namespace std;
 int main(){
     int day;
+    cout<<"Input no of days of week :";
+    cin>>day;
     switch(day)
     {
         case 1:
@@ -37,6 +39,11 @@ int main(){
          case 7:
         {
             cout<<"Sunday";
+            break;
+        }
+        default:
+        {
+            cout<<"Input Correct no of days ";
             break;
         }
         
