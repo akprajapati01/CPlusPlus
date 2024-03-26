@@ -9,11 +9,12 @@ check=num;
 while (num>0)
     {
         s=num%10;
-        ch=pow(s,3);
+        ch=s*s*s;
         sum=sum+ch;
+        num=num/10;
 
     }
-    a=num/10;
+    
 if(check==sum)
 {
     cout<<"Armstrong number";
